@@ -17,8 +17,6 @@ import { IoMdPin } from "react-icons/io";
 function Footer() {
   return (
     <Flex
-      position="absolute"
-      bottom={0}
       bgImage="url('/assets/bg.jpg')"
       bgPosition="center"
       bgRepeat="no-repeat"
@@ -28,6 +26,7 @@ function Footer() {
       spacing={6}
       direction="column"
       padding={4}
+      mt={44}
     >
       <Flex w="full" paddingX={16} align="center">
         <Image w={52} src="/assets/logo2.png" />

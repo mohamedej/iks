@@ -6,7 +6,7 @@ function Header() {
   let location = useLocation();
   let path = location.pathname;
   return (
-    <Box>
+    <Box mb={12}>
       <Flex justifyContent="space-between" paddingX="8" align={"center"}>
         <Image src="/assets/logo1.png" marginY={-28} />
         <Center bg="#008463" h={12} w={12} rounded="full">
