@@ -3,6 +3,7 @@ import React from "react";
 import DividingLine from "../components/DividingLine";
 import HeadlineWithSideLine from "../components/HeadlineWithSideLine";
 import ImageGallary from "../components/Home/ImageGallary";
+import Location from "../components/Home/Location";
 
 function Home() {
   return (
@@ -46,6 +47,8 @@ function Home() {
       </Text>
       <DividingLine />
       <ImageGallary />
+      <DividingLine />
+          <Location />
     </Box>
   );
 }
