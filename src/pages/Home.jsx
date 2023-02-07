@@ -48,6 +48,8 @@ function Home() {
       <DividingLine />
       <ImageGallary />
       <DividingLine />
+            <HeadlineWithSideLine headline={"Our Location"} />
+
           <Location />
     </Box>
   );
