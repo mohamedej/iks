@@ -2,6 +2,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import React from "react";
 import DividingLine from "../components/DividingLine";
 import HeadlineWithSideLine from "../components/HeadlineWithSideLine";
+import ImageGallary from "../components/Home/ImageGallary";
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
         teaches the Libyan curriculum.
       </Text>
       <DividingLine />
+      <ImageGallary />
     </Box>
   );
 }
