@@ -39,12 +39,13 @@ function AboutUs() {
         <DividingLine />
         <Flex w="full" justifyContent={"space-evenly"}>
           <CircleCard
-            picture={"url('/assets/home_hero.png')"}
+            picture={"url('/assets/pool.jpg')"}
             headline="INDOOR SWIMMING POOL"
           />
           <CircleCard
-            picture={"url('/assets/home_hero.png')"}
-            headline="INDOOR SWIMMING POOL"
+            picture={"url('/assets/sport.jpg')"}
+            headline="VERSATILE SPORTS
+            FACILITIES"
           />
         </Flex>
         <DividingLine />

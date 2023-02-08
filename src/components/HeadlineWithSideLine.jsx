@@ -3,9 +3,9 @@ import React from "react";
 
 function HeadlineWithSideLine({ headline }) {
   return (
-    <HStack paddingX={16} mb={12} mt={24}>
-      <Box w={1} h={7} bg="green" />
-      <Text fontSize={32} fontWeight="bold" color={"#3D3D3D"}>
+    <HStack paddingX={[4, 8, 16]} mb={[8, 12, 16]} mt={[12, 20, 24]}>
+      <Box w={["2px", "3px", "4px"]} h={[3, 5, 7]} bg="green" />
+      <Text fontSize={[12, 24, 32]} fontWeight="bold" color={"#3D3D3D"}>
         {headline}
       </Text>
     </HStack>

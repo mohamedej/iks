@@ -9,8 +9,8 @@ function Home() {
   return (
     <Box>
       <Box
-        h={570}
-        bgImage="url('/assets/home_hero.png')"
+        height={[300, 450, 570]}
+        bgImage="url('/assets/home_hero.jpg')"
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"
@@ -28,16 +28,17 @@ function Home() {
         <Text
           position="absolute"
           bottom="35"
-          ml={16}
+          ml={[4, 8, 16]}
           color="white"
           fontWeight={"bold"}
-          fontSize="48px"
+          fontSize={["15px", "30px", "48px"]}
         >
           International Knowledge School
         </Text>
       </Box>
       <HeadlineWithSideLine headline={"Overview"} />
-      <Text paddingX={20} my={12} fontSize={20}>
+
+      <Text paddingX={[8, 12, 20]} my={12} fontSize={[12, 16, 20]}>
         Tajoura International Knowledge School is delighted to welcome you. Our
         outstanding school offers pre-primary, primary and secondary education
         in one of our latest branches based in Tripoli. T.IKS school is part of
@@ -45,12 +46,16 @@ function Home() {
         which teaches an English curriculum and the Arabic department that
         teaches the Libyan curriculum.
       </Text>
-      <DividingLine />
-      <ImageGallary />
-      <DividingLine />
-            <HeadlineWithSideLine headline={"Our Location"} />
 
-          <Location />
+      <DividingLine />
+
+      <ImageGallary />
+
+      <DividingLine />
+
+      <HeadlineWithSideLine headline={"Our Location"} />
+
+      <Location />
     </Box>
   );
 }
