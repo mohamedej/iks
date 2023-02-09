@@ -8,13 +8,13 @@ function Information() {
   return (
     <Box mr={16}>
       <HStack mb={8} mt={24}>
-        <Box w={1} h={7} bg="green" />
-        <Text fontSize={32} fontWeight="bold" color={"#3D3D3D"}>
+        <Box w={[0.5, 1]} h={[4, 7]} bg="green" />
+        <Text fontSize={[20, 24, 28, 32]} fontWeight="bold" color={"#3D3D3D"}>
           Contact Us
         </Text>
       </HStack>
 
-      <Text color={"#008463"}>
+      <Text fontSize={[12, 14, 16, 18]} color={"#008463"}>
         Wish to enquire about admissions, syllabus, or anything else? You can
         walk in during office hours, give us a call or simply submit the form
         here.

@@ -3,15 +3,19 @@ import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
+const responsive = {
+  0: { items: 1 },
+  568: { items: 1 },
+  1024: { items: 1 },
+};
+
 export default function ImageGallary() {
   const handleDragStart = (e) => e.preventDefault();
 
   const items = [
-    <AspectRatio ratio={16 / 9}>
-      <video width="100%" height="600px" autoPlay controls loop>
-        <source src="/assets/promo.mp4" type="video/mp4" />
-      </video>
-    </AspectRatio>,
+    <video width="100%" height={["200px"]} autoPlay controls loop>
+      <source src="/assets/promo.mp4" type="video/mp4" />
+    </video>,
     <AspectRatio ratio={16 / 9}>
       <Image
         src="/assets/home_hero.png"
@@ -32,8 +36,8 @@ export default function ImageGallary() {
   ];
 
   return (
-    <Box padding={48}>
-      <AliceCarousel mouseTracking items={items} />
+    <Box padding={[4, 16, 32]} my={[8, 4, 0]}>
+      <AliceCarousel mouseTracking items={items} responsive />
     </Box>
   );
 }

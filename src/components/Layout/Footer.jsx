@@ -25,12 +25,20 @@ function Footer() {
       w="full"
       spacing={6}
       direction="column"
-      padding={4}
+      padding={[1, 2, 4]}
       mt={44}
+      h={["9em", "10em", "18em", "18em"]}
     >
-      <Flex w="full" paddingX={16} align="center">
-        <Image w={52} src="/assets/logo2.png" />
-        <HStack ml="30%" spacing={12} align="start" h={20}>
+      <Flex w="full" paddingX={[4, 8, 16]} align="center">
+        <Image w={["62px", 32, 48, 52]} src="/assets/logo2.png" />
+        <HStack
+          ml={["10%", "16%", "18%", "24%"]}
+          spacing={[3, 4, 12]}
+          align="start"
+          justifyContent="center"
+          h={[4, 12, 20, 20]}
+          fontSize={[6, 8, 10, 16]}
+        >
           <VStack direction={"column"} color="white" align={"start"}>
             <Text fontWeight="bold">Contact Info</Text>
             <HStack>
@@ -62,7 +70,13 @@ function Footer() {
           </VStack>
         </HStack>
       </Flex>
-      <Center color="white" fontWeight="bold" mb={2} mt={4}>
+      <Center
+        color="white"
+        fontWeight="bold"
+        mb={[1, 1, 2, 2]}
+        mt={[12, 2, 4, 4]}
+        fontSize={[6, 10, 14, 16]}
+      >
         Copyright © 2023 IKSTajoura | Powered by IKS group.
       </Center>
     </Flex>
