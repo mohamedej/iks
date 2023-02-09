@@ -34,12 +34,14 @@ function AboutUs() {
           flexDir={["column", "column", "row"]}
         >
           <CircleCard
-            picture={"url('/assets/home_hero.png')"}
-            headline="INDOOR SWIMMING POOL"
+            picture={"url('/assets/lab.jpg')"}
+            headline="MODERN SCIENCE 
+            LABORATORY"
           />
           <CircleCard
-            picture={"url('/assets/home_hero.png')"}
-            headline="INDOOR SWIMMING POOL"
+            picture={"url('/assets/theater.jpg')"}
+            headline="STATE OF THE ART
+            THEATER"
           />
         </Flex>
         <DividingLine />
@@ -69,12 +71,12 @@ function AboutUs() {
           flexDir={["column", "column", "row"]}
         >
           <CircleCard
-            picture={"url('/assets/home_hero.png')"}
-            headline="INDOOR SWIMMING POOL"
+            picture={"url('/assets/computer.jpg')"}
+            headline="COMPUTER LAB"
           />
           <CircleCard
-            picture={"url('/assets/home_hero.png')"}
-            headline="INDOOR SWIMMING POOL"
+            picture={"url('/assets/kitchen.jpg')"}
+            headline="FULLY EQUIPPED KITCHEN"
           />
         </Flex>
       </VStack>

@@ -43,7 +43,7 @@ function Footer() {
             <Text fontWeight="bold">Contact Info</Text>
             <HStack>
               <ImPhone />
-              <Text>092-4440055</Text>
+              <Text>092-9810044</Text>
             </HStack>
             <HStack>
               <MdEmail />

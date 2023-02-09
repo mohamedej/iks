@@ -29,7 +29,7 @@ function Information() {
           </HStack>
           <HStack color={"#008463"}>
             <ImPhone />
-            <Text>092-4440055</Text>
+            <Text>092-9810044</Text>
           </HStack>
         </VStack>
         <VStack align={"start"} spacing={2}>
