@@ -13,7 +13,7 @@ function CircleCard({ picture, headline }) {
       position="relative"
       rounded="full"
       textAlign={"center"}
-      my={[6, 2, 0]}
+      mt={[24, 24, 0, 0]}
     >
       <Box
         bg={
