@@ -166,9 +166,6 @@ function ContactForm() {
       <Flex justify={"center"} w="full">
         <Button
           colorScheme={"green"}
-          onClick={() => {
-            name = "";
-          }}
           type="submit"
           size={["sm", "sm", "md", "md"]}
           rounded="full"
