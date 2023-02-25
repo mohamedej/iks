@@ -27,12 +27,12 @@ function CircleCard({ picture, headline }) {
       />
       <Text
         position="absolute"
-        bottom="70"
+        bottom={[37, 70]}
         w="inherit"
         color="white"
         fontWeight={"bold"}
         textAlign={"center"}
-        fontSize="16px"
+        fontSize={["9px", "16px"]}
       >
         {headline}
       </Text>

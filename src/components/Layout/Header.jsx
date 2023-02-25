@@ -13,9 +13,9 @@ function Header() {
         align={"center"}
       >
         <Image
-          src="/assets/logo1.png"
-          marginY={[-16, -20, -28]}
-          w={[200, 250, 320, 340]}
+          src="/assets/logo4.png"
+          marginY={[2, 4, 6]}
+          w={[200, 250, 320, 360]}
         />
         <Center bg="#008463" h={[10, 12]} w={[10, 12]} rounded="full">
           <Link to="https://www.facebook.com/profile.php?id=100083014584676">
